@@ -58,3 +58,6 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+
+(setq flycheck-php-executable "phpcs"
+      flycheck-phpcs-standard "PSR12")
