@@ -117,5 +117,5 @@ typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 path+=(~/development/flutter/bin)
 path+=(~/.emacs.d/bin)
 path+=(~/.composer/vendor/bin)
-export PATH
 
+export -U PATH
